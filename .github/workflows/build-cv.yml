@@ -4,13 +4,15 @@ on:
   push:
     branches: [ main ]
     paths:
-      - 'README.md'
+      - README.md
+      - styles/**
+      - .github/workflows/build-cv.yml
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Convert Markdown to PDF
         uses: baileyjm02/markdown-to-pdf@v1
@@ -26,7 +28,7 @@ jobs:
         run: mv README.pdf cv.pdf
 
       - name: Upload PDF Artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: cv
           path: cv.pdf
