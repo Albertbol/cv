@@ -1,0 +1,32 @@
+name: Build CV (Markdown to PDF)
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'README.md'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Convert Markdown to PDF
+        uses: baileyjm02/markdown-to-pdf@v1
+        with:
+          input_path: README.md
+          output_dir: .
+          build_html: false
+          build_pdf: true
+          theme: styles/cv-theme.css
+          extend_default_theme: true
+
+      - name: Rename PDF
+        run: mv README.pdf cv.pdf
+
+      - name: Upload PDF Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: cv
+          path: cv.pdf
