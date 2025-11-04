@@ -12,6 +12,7 @@ on:
 env:
   DOC_BASENAME: cv
   OUTPUT_DIR: build
+  PUBLISH_DIR: site
 
 jobs:
   build:
@@ -33,12 +34,13 @@ jobs:
           theme: styles/cv-theme.css
           extend_default_theme: true
 
-      - name: Normalize filenames
+      - name: Prepare publish assets
         run: |
-          chmod u+w "${OUTPUT_DIR}/README.pdf" "${OUTPUT_DIR}/README.html"
-          mv "${OUTPUT_DIR}/README.pdf" "${OUTPUT_DIR}/${DOC_BASENAME}.pdf"
-          mv "${OUTPUT_DIR}/README.html" "${OUTPUT_DIR}/index.html"
-          cp "${OUTPUT_DIR}/${DOC_BASENAME}.pdf" "${DOC_BASENAME}.pdf"
+          rm -rf "${PUBLISH_DIR}"
+          mkdir -p "${PUBLISH_DIR}"
+          cp "${OUTPUT_DIR}/README.html" "${PUBLISH_DIR}/index.html"
+          cp "${OUTPUT_DIR}/README.pdf" "${DOC_BASENAME}.pdf"
+          cp "${DOC_BASENAME}.pdf" "${PUBLISH_DIR}/${DOC_BASENAME}.pdf"
 
       - name: Commit updated PDF
         if: github.ref == 'refs/heads/main'
@@ -55,13 +57,13 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: ${{ env.DOC_BASENAME }}
-          path: ${{ env.OUTPUT_DIR }}/${{ env.DOC_BASENAME }}.pdf
+          path: ${{ env.DOC_BASENAME }}.pdf
           if-no-files-found: error
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ${{ env.OUTPUT_DIR }}
+          path: ${{ env.PUBLISH_DIR }}
 
   deploy:
     needs: build
