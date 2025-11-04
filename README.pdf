@@ -1,0 +1,150 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 3901 >>
+stream
+BT
+/F1 12 Tf
+72 760 Td
+(Albert Bolush) Tj
+0 -16 Td
+(Fullstack Cloud Engineer & Product Builder) Tj
+0 -16 Td
+(Location: Sweden | Email: alb.bolush@gmail.com | LinkedIn: https://www.linkedin.com/in/albert-bolush-7a5a9113b | Medium: https://alb-bolush.medium.com) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(Summary) Tj
+0 -16 Td
+(Engineer with 7+ years of experience designing scalable, event-driven systems and real-time applications.) Tj
+0 -16 Td
+(Specialized in Node.js, TypeScript, and cloud-native architecture across AWS, GCP, and Cloudflare.) Tj
+0 -16 Td
+(Building intelligent, autonomous systems and full products end-to-end — from backend APIs to frontend apps.) Tj
+0 -16 Td
+(Currently exploring LLM-based automation and Rust for high-performance backend development.) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(Tech Stack) Tj
+0 -16 Td
+(Backend / Cloud: Node.js · TypeScript · PostgreSQL · GraphQL · REST · Serverless · AWS · GCP · Cloudflare) Tj
+0 -16 Td
+(Tools / Infra: Docker · Terraform · GitHub Actions · CI/CD · Monitoring) Tj
+0 -16 Td
+(AI / Automation: LLMs · Autonomous Agents · Workflow Orchestration) Tj
+0 -16 Td
+(Frontend / Mobile: React · Vue.js · Flutter) Tj
+0 -16 Td
+(Learning: Rust) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(Experience) Tj
+0 -16 Td
+(Eletive — Senior Cloud Engineer \(2023 – Present, Sweden\)) Tj
+0 -16 Td
+(- Architect and maintain event-driven backend systems using Node.js + GraphQL.) Tj
+0 -16 Td
+(- Lead infrastructure optimization and scalability across multi-cloud environments.) Tj
+0 -16 Td
+(- Integrate AI-driven automation into workflows and internal tooling.) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(Zmarta Group — Tech Lead & Fullstack Developer \(2019 – 2023, Sweden\)) Tj
+0 -16 Td
+(- Led a team of 5 engineers delivering microservice-based fintech products.) Tj
+0 -16 Td
+(- Implemented CI/CD and infrastructure-as-code pipelines for faster, safer releases.) Tj
+0 -16 Td
+(- Drove architectural improvements and mentored developers across squads.) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(Foodhero — Founder & Cloud Engineer \(Oct 2024 – Present, Latvia / Remote\)) Tj
+0 -16 Td
+(- Built and scaled Too Good To Go–style food-waste platform reaching 20 000 + users.) Tj
+0 -16 Td
+(- Designed backend APIs and realtime systems with GCP + Cloudflare + Firebase.) Tj
+0 -16 Td
+(- Managed app, dashboard, and cloud operations end-to-end.) Tj
+0 -16 Td
+(- https://foodhero.app) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(Shopamoji — Creator & Flutter Developer \(2023 – Present\)) Tj
+0 -16 Td
+(- Cross-platform shopping-list app with voice input and localization.) Tj
+0 -16 Td
+(- Achieved 25 000 + installs on Android + iOS.) Tj
+0 -16 Td
+(- Android: https://play.google.com/store/apps/details?id=com.shopamoji.app) Tj
+0 -16 Td
+(- iOS: https://apps.apple.com/us/app/shopamoji-grocery-list/id1578027429) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(Rephrase — Creator \(2023 – Present\)) Tj
+0 -16 Td
+(- Mac app that rephrases or fixes text with a shortcut — like system-wide Grammarly.) Tj
+0 -16 Td
+(- Built with Flutter + AI integration for multi-language support.) Tj
+0 -16 Td
+(- https://www.rephrase.space) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(Gislaveds Kommun — System Developer \(2018, Sweden\)) Tj
+0 -16 Td
+(- Developed internal web applications and SQL-driven tools for municipal workflows.) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(Education) Tj
+0 -16 Td
+(B.Sc. Computer Science — Transport & Telecommunication Institute \(Riga, Remote\)) Tj
+0 -16 Td
+(B.Sc. Sports Management — Latvian Sports Academy) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(Highlights) Tj
+0 -16 Td
+(- Built and scaled Foodhero → 20 000 + users, 50 + partners.) Tj
+0 -16 Td
+(- Created Shopamoji → 25 000 + installs across platforms.) Tj
+0 -16 Td
+(- Experienced across AWS, GCP, Cloudflare, and event-driven architecture.) Tj
+0 -16 Td
+(- Active in LLM development and autonomous agent integration.) Tj
+0 -16 Td
+(- Combine technical depth with product-driven execution.) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000004193 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+4263
+%%EOF
