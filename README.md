@@ -76,3 +76,10 @@ Built with **Flutter + AI integrations**.
 • Experienced in **AWS, GCP, Cloudflare**, and **event-driven architecture**  
 • Active in **LLM development** and **autonomous agent integration**  
 • Combine deep technical expertise with a strong product mindset
+
+---
+
+### Automation
+- The `Build CV` workflow renders both `cv.pdf` and an HTML version with the shared minimalist theme.
+- The PDF export is published as a workflow artifact named `cv` on every run.
+- The generated HTML is deployed automatically to GitHub Pages, available at `https://<github-username>.github.io/<repository-name>/` once Pages is enabled for the repository.
