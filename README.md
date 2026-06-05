@@ -83,6 +83,20 @@ Tech Lead and Fullstack Developer building fintech products, microservices, and 
 
 ---
 
+### Prisma · Creator & Fullstack Engineer  
+*2026 – Present*
+
+Creator of Prisma, a social operating system for modern brand teams that unifies brand strategy, content planning, multi-channel publishing, and analytics in one platform.
+
+• Built the product end-to-end across brand DNA, campaign planning, publishing, and analytics  
+• Designed context-aware AI workflows that generate campaign structures, post drafts, and optimal-timing suggestions from brand and performance data  
+• Implemented auto-publishing with review workflows across 14+ channels including Instagram, TikTok, LinkedIn, X, and YouTube  
+• Owned product, architecture, and delivery end-to-end  
+
+**[prisma-marketing.com →](https://prisma-marketing.com)**
+
+---
+
 ### Foodhero · Founder & Cloud Engineer  
 *Oct 2024 – Present · Latvia / Remote*
 
@@ -137,6 +151,13 @@ System Developer building internal tools and SQL-driven applications for municip
 ---
 
 ## Selected Projects
+
+### Prisma  
+Social operating system for brand teams — unifying brand strategy, content planning, multi-channel publishing, and analytics with built-in AI workflows.
+
+**Stack:** AI Workflows · LLMs · Multi-channel publishing · Cloud-native backend · Analytics
+
+---
 
 ### Foodhero  
 Food-saving marketplace connecting local stores with users looking for discounted surplus food.
